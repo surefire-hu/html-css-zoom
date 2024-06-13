@@ -92,3 +92,67 @@ header {
 }
 
 
+    /* Footer */
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        height: 80px;
+        background-color: #222222;
+    }
+    
+    .footer-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    footer .video,
+    footer .button {
+        width: 20%;
+    }
+    
+    footer .setting {
+        padding-left: 10px;
+    }
+    
+    h5 {
+        font-size: 14px;
+    }
+    
+    .icone > i{
+        margin-bottom: 10px;
+    }
+    
+    .icone {
+        padding: 15px 10px;
+        display: inline-block;
+        font-size: 22px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    #icongreen {
+        color: rgb(62, 189, 8);
+    }
+    
+    .icone .arrow {
+        font-size: 15px;
+        line-height: 50px;
+    }
+    
+    .end-meet {
+        display: flex;
+        justify-content: right;  
+    }
+    
+    .btn  {
+        all: unset;
+        display: inline-block;
+        padding: 30px;
+        cursor: pointer;
+        background-color: #4a4a4a;
+        color: red;
+    }
