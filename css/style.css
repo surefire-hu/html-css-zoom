@@ -45,3 +45,50 @@ header {
     background-color: #4a4a4a;
 }
 
+/* Main */
+
+.main {
+    height: calc(100% - 130px);
+    overflow-y: auto;
+}
+.container {
+    padding-bottom: 100px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.users {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.utente {
+    width: 250px;
+    padding: 10px 3px;
+
+}
+
+.person-info {
+    position: relative;
+}
+
+.person-info  img {
+    width: 100%;
+    display: block;
+    border-radius: 7px;
+
+}
+
+.naming {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    font-size: 14px;
+}
+
+
